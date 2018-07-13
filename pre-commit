@@ -4,12 +4,12 @@
 # Based on code by Remigijus Jarmalavičius
 # Modify by: uTip SAS (https://utip.io)
 #
-# Checks the files to be committed for the presence of print_r(), var_dump() and die()
+# Checks the files to be committed for the presence of print_r(), dump() and die()
 # The array below can be extended for further checks
 
 verbose=false
 
-checks[1]="var_dump("
+checks[1]="dump("
 checks[2]="print_r("
 checks[3]="die"
 
