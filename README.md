@@ -24,7 +24,7 @@ $ chmod +x .git/hooks/pre-commit;
 
 ## Usage
 
-The hook comes with the `die`, `print_r` and `var_dump` functions as the strings to
+The hook comes with the `die`, `print_r` and `dump` functions as the strings to
 be checked prior to the commit. You can add more strings to be checked if you wish 
 by modifying the checks array
 
